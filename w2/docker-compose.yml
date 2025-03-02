@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  node-app:
+    build: .
+    ports:
+      - "80:3000"  # Map port 80 of the machine to port 3000 of the container
+    restart: always  # Restart the container if it crashes
