@@ -9,11 +9,11 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World from W2 server');
+  res.send('Hello World from web server');
 });
 
 app.get('/getUser', (req, res) => {
-  res.send('getUser Api from W2 server');
+  res.send('getUser Api from web server');
 });
 
 app.listen(PORT, HOST);
