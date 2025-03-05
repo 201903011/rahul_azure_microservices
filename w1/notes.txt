@@ -6,6 +6,14 @@ Step 1 install docker
 
     ./install_docker.sh
 
+    sudo apt install docker-compose
+
 Step 2 run docker container
 
-    docker-compose up --build -d
+    sudo docker-compose up --build -d
+
+    sudo docker ps
+
+    curl http://localhost
+
+Step 3 
